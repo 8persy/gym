@@ -1,0 +1,5 @@
+.about__title {
+    grid-area: title;
+    align-content: center;
+    text-align: center;
+}

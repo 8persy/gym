@@ -1,0 +1,11 @@
+.about__content {
+    width: 90%;
+    max-height: 80vh;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    grid-auto-columns: 20% 80%;
+    grid-template-areas: 'title first'
+                        'title second'
+                        'subtitle list';
+}

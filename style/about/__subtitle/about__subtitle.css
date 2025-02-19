@@ -1,0 +1,5 @@
+.about__subtitle {
+    grid-area: subtitle;
+    align-content: center;
+    text-align: start;
+}

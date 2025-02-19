@@ -1,0 +1,6 @@
+.ronny__triangle {
+    position: absolute;
+    z-index: -2;
+    left: -15%;
+    max-width: 49%;
+}

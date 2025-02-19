@@ -5,12 +5,47 @@
 @import "header/__links/header__links.css";
 @import "header/__connection/header__connection.css";
 
-/*imports for modifiers*/
+/*styles for ronny*/
+@import "ronny/ronny.css";
+@import "ronny/__img/ronny__img.css";
+@import "ronny/__triangle/ronny__triangle.css";
+@import "ronny/__description/ronny__description.css";
+@import "ronny/__title/ronny__title.css";
+@import "ronny/__text/ronny__text.css";
+@import "ronny/__button/ronny__button.css";
+
+/*styles for about*/
+@import "about/about.css";
+@import "about/__content/about__content.css";
+@import "about/__title/about__title.css";
+@import "about/__subtitle/about__subtitle.css";
+@import "about/__text/about__text.css";
+@import "about/__text/_position/about__text_position_first.css";
+@import "about/__text/_position/about__text_position_second.css";
+@import "about/__list/about__list.css";
+@import "about/__list-item/about__list-item.css";
+
+/*styles for modifiers*/
 @import "modifiers/link/link.css";
 @import "modifiers/font-size/font-size_l.css";
+@import "modifiers/font-size/font-size_xxl.css";
+
+/*styles for animations*/
+@import "animations/rotation/rotation.css";
+
+@font-face {
+    font-family: Merryweather;
+    src: url("fonts/merryweather/Merriweather-Regular.ttf") format('ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
 
 .page {
     margin: 0;
     padding: 0;
     background-color: rgba(0, 0, 0, 0.12);
+    font-family: 'Merryweather', sans-serif;
 }
