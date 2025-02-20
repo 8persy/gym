@@ -1,0 +1,10 @@
+.why-us {
+    width: 80%;
+    max-height: 80vh;
+    margin: 0 auto;
+    padding: 2%;
+    display: grid;
+    gap: 10px;
+    grid-auto-columns: 20% 80%;
+    grid-template-areas: 'subtitle list';
+}

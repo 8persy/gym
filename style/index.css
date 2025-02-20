@@ -18,12 +18,9 @@
 @import "about/about.css";
 @import "about/__content/about__content.css";
 @import "about/__title/about__title.css";
-@import "about/__subtitle/about__subtitle.css";
 @import "about/__text/about__text.css";
 @import "about/__text/_position/about__text_position_first.css";
 @import "about/__text/_position/about__text_position_second.css";
-@import "about/__list/about__list.css";
-@import "about/__list-item/about__list-item.css";
 
 /*styles for service*/
 @import "service/service.css";
@@ -33,6 +30,12 @@
 @import "service/__img/service__img.css";
 @import "service/__card-title/service__card-title.css";
 @import "service/__card-text/service__card-text.css";
+
+/*styles for why-us*/
+@import "why-us/why-us.css";
+@import "why-us/__subtitle/why-us__subtitle.css";
+@import "why-us/__list/why-us__list.css";
+@import "why-us/__list-item/why-us__list-item.css";
 
 /*styles for modifiers*/
 @import "modifiers/link/link.css";
