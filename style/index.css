@@ -25,8 +25,18 @@
 @import "about/__list/about__list.css";
 @import "about/__list-item/about__list-item.css";
 
+/*styles for service*/
+@import "service/service.css";
+@import "service/__title/service__title.css";
+@import "service/__cards/service__cards.css";
+@import "service/__card/service__card.css";
+@import "service/__img/service__img.css";
+@import "service/__card-title/service__card-title.css";
+@import "service/__card-text/service__card-text.css";
+
 /*styles for modifiers*/
 @import "modifiers/link/link.css";
+@import "modifiers/font-size/font-size_m.css";
 @import "modifiers/font-size/font-size_l.css";
 @import "modifiers/font-size/font-size_xxl.css";
 
