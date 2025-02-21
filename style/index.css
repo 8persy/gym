@@ -46,6 +46,16 @@
 @import "coach/__name/coach__name.css";
 @import "coach/__description/coach__description.css";
 
+/*styles for footer*/
+@import "footer/footer.css";
+@import "footer/__content/footer__content.css";
+@import "footer/__logo/footer__logo.css";
+@import "footer/__name/footer__name.css";
+@import "footer/__social/footer__social.css";
+@import "footer/__link/footer__link.css";
+@import "footer/__heading/footer__heading.css";
+@import "footer/__link-logo/footer__link-logo.css";
+
 /*styles for modifiers*/
 @import "modifiers/link/link.css";
 @import "modifiers/font-size/font-size_m.css";
@@ -66,7 +76,9 @@ html {
 }
 
 .page {
-    margin: 0;
+    max-width: 1600px;
+    min-width: 400px;
+    margin: 0 auto;
     padding: 0;
     background-color: rgba(0, 0, 0, 0.12);
     font-family: 'Merryweather', sans-serif;

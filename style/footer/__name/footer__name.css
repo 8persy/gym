@@ -1,0 +1,5 @@
+.footer__name {
+    grid-area: name;
+    text-align: start;
+    align-self: end;
+}

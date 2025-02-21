@@ -1,7 +1,8 @@
 .ronny {
-    overflow: hidden;
+    /*overflow: hidden;*/
     max-height: 600px;
     display: grid;
     grid-auto-columns: minmax(10%, 49%) minmax(10%, 49%);
     grid-template-areas: 'img description';
+    position: relative;
 }

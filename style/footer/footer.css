@@ -1,0 +1,7 @@
+.footer {
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.12);
+    min-height: 220px;
+    display: flex;
+    justify-content: stretch;
+}
