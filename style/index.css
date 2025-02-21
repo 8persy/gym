@@ -37,6 +37,15 @@
 @import "why-us/__list/why-us__list.css";
 @import "why-us/__list-item/why-us__list-item.css";
 
+/*styles for coach*/
+@import "coach/coach.css";
+@import "coach/__title/coach__title.css";
+@import "coach/__cards/coach__cards.css";
+@import "coach/__card/coach__card.css";
+@import "coach/__img/coach__img.css";
+@import "coach/__name/coach__name.css";
+@import "coach/__description/coach__description.css";
+
 /*styles for modifiers*/
 @import "modifiers/link/link.css";
 @import "modifiers/font-size/font-size_m.css";
