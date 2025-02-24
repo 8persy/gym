@@ -1,6 +1,8 @@
 .header__link {
-    width: 15%;
-    height: 40px;
+    width: fit-content;
+    min-width: 15%;
+    padding: 0.5%;
+    height: 35px;
     background-color: rgba(0, 0, 0, 0.11);
     align-content: center;
     text-align: center;
